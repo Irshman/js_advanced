@@ -1,0 +1,53 @@
+.conteiner {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(5, 63, 111);
+}
+
+.list {
+    font-size: 22px;
+    width: 100px;
+    list-style: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 20px;
+    color: rgba(0, 111, 201, 0.795);
+    height: 30px;
+    margin: 5px;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 111, 201, 0.493);
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: rgba(0, 79, 144, 0.795);
+    color: white;
+}
+
+input {
+    height: 30px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid rgba(0, 111, 201, 0.493);
+    color: rgba(0, 41, 74, 0.719);
+}
+
+#list li.active {
+    color: rgba(2, 35, 62, 0.795); 
+    background-color: rgba(0, 111, 201, 0.274);
+}
