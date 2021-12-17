@@ -50,6 +50,8 @@ function createList() {
         alert("Input is empty");
     } else {
         var str = input.value;
+        var sumCharA = str.match(/a/gi).length;
+        alert(`Количиство символов "а" в тексе - ${sumCharA}`);
         var myArr = str.split(" ");
         var ln = myArr.length;
         var li; 

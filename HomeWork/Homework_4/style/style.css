@@ -1,0 +1,19 @@
+.greenDiv {
+    background-color:green;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+    width: 200px;
+    height: 70px;
+    background-color: rgb(12, 150, 58) ;
+    border: 3px solid rgb(0, 71, 24);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 20px;
+}
