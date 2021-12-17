@@ -1,0 +1,22 @@
+#buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+#screen {
+    border: 4px double #000;
+    width: 492px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.number {
+    flex-basis: 20%;
+    height: 100px;
+    font-size: 20px;
+    line-height: 60px;
+}

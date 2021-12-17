@@ -1,0 +1,56 @@
+.conteiner {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(55, 21, 74);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(55, 21, 74);
+    margin-top: 30px;
+}
+
+.time {
+    font-size: 26px;
+    text-align: center;
+    margin: 25px auto;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(125, 7, 125);
+    border-radius: 3px;
+    color: honeydew;
+}
+
+
+input {
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(125, 7, 125);
+    border-radius: 2px;
+    background-color: transparent;
+    color: rgb(55, 21, 74);
+    font-size: 18px;
+    transition: all linear .3s;
+    margin: 5px;
+}
+
+input:hover {
+    background-color: rgba(81, 6, 81, 0.5);
+    color: white;
+}
+
+#enterText {
+    width: 300px;
+}
+
+#list {
+    width: 50%;
+    color: rgb(55, 21, 74);
+    font-size: 22px;
+    background-color: rgba(81, 6, 81, 0.5);
+}
