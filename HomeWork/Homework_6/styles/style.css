@@ -1,0 +1,31 @@
+#parent-div {
+    position: absolute;
+    z-index: 9;
+}
+
+#child-div {
+    padding: 50px;
+    cursor: move;
+    z-index: 10;
+    background-color: #f7b51b;
+    color: #fff;
+    transition: all linear .3s;
+    box-shadow: 3px 3px 15px rgb(81, 83, 98);
+}
+
+.active {
+    width: 10px;
+    height: 10px;
+}
+
+
+
+/* Task 2 */
+
+input.invalid {
+    background-color: Pink;
+}
+
+input.valid {
+    background-color: LightGreen;
+}

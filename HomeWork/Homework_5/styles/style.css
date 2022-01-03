@@ -1,0 +1,91 @@
+.link {
+    font-size: 22px;
+    text-decoration: none;
+    color: #0a3dab;
+    border: 1px solid #0a3dab;
+    padding: 5px;
+    border-radius: 7px;
+    margin: 25px;
+    transition: all linear .3s;
+}
+
+.link:hover {
+    background-color: #0a3dab;
+    color: white;
+}
+
+.divText {
+    width: 500px;
+    margin: 25px;
+    background-color: #0a3dab;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.show-hide {
+    display: none;
+}
+
+.deleteEvent {
+    font-size: 20px;
+    margin-left: 25px;
+    background-color: #0a3dab;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.deleteEvent:hover {
+    background-color: #0c2760;
+}
+
+h1 {
+    color: #0c2760;
+    margin-left: 25px;
+}
+
+h2 {
+    color: #0c2760;
+    margin-left: 25px;
+}
+.conteiner {
+    display: flex;
+    margin: 25px;
+}
+
+.item {
+    max-width: 15%;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #0c2760;
+    border-radius: 5px;
+    color: #0c2760;
+}
+
+.btnItem {
+    font-size: 20px;
+    background-color: #0a3dab;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnItem:hover {
+    background-color: #0c2760;
+}
+
+#main-div {
+    font-size: 26px;
+    margin-left: 25px;
+    color: #0c2760;
+}
+
+.helpDiv {
+    color: rgb(235, 68, 68);
+}

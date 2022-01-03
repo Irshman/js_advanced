@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.conteiner {
+    background: url(../img/bg.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#duck {
+    position: absolute;
+    z-index: 99999;
+}
+
+img {
+    height: 50px;
+}
+
+.score {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: #000;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 12px;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+}
+
+.game-over {
+    position: absolute;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 80%);
+    text-transform: uppercase;
+    color: #f4f4f4;
+    font-size: 60px;
+    font-family: Arial;
+    text-shadow: 0px 0px 7px rgba(255, 255, 255, 75%);
+    font-weight: bold;
+    height: 100vh;
+    width: 100vw;
+    stroke: 1.5px #333;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-1000px);
+    transition: all linear .5s;
+}
+
+button {
+    position: absolute;
+    background: #000;
+    color: #f4f4f4;
+    font-size: 38px;
+    text-align: center;
+    border-radius: 12px;
+    border: 4px solid #f4f4f4;
+    box-sizing: border-box;
+    padding: 5px 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 70%;
+    cursor: pointer;
+}
+
+
+.game-over.visible {
+    transform: translateY(0px);
+}

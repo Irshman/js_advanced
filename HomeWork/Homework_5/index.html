@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Homework 5</title>
+</head>
+<body>
+<!--
+Создайте ссылку и див с текстом внутри, который изначально при загрузке страницы будет скрыт.
+При клике на ссылку див появляется, если повторно нажать ссылку див и текст должны пропасть.
+Также создайте кнопку, которая будет отменять выполнение обработчика клика по ссылке.
+-->
+
+<!-- Task 1 -->
+
+    <h1>Task 1</h1>
+    <a href="" class="link">Some link</a>
+    <div class="divText show-hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tenetur incidunt impedit atque nam unde repellat distinctio. Dolores nam dicta quidem ut, provident placeat tenetur delectus consequatur odit, magni ad? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam maxime voluptates laborum minima voluptatum ipsa maiores dolores illo ex incidunt, ab placeat corporis voluptas ullam? Facere odit fugit iure est.</div>
+    <button class="deleteEvent">Delete click link</button>
+
+    <!--
+    1. Создайте 5 блоков с текстом. Добавьте в каждый из блоков кнопку для его удаления.
+    Используйте только один обработчик.
+
+    2. Доработайте пример 004_Attr_Tech.html таким образом, чтобы при наведении на span элементы,
+    подсказка сплыва под ними, а не в модальном окне. Используйте addEventListener -->
+
+    <!-- 1) -->
+
+    <h1>Task 2</h1>
+    <h2>Subtask 1</h2>
+    <div class="conteiner">
+        <div class="item">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid incidunt consequatur, odit ipsam temporibus sunt inventore maiores maxime eveniet repellat, est dolorem a! Eos, a itaque! Saepe officia deserunt magnam.</p>
+            <button class="btnItem">Delete</button>
+        </div>
+        <div class="item">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid incidunt consequatur, odit ipsam temporibus sunt inventore maiores maxime eveniet repellat, est dolorem a! Eos, a itaque! Saepe officia deserunt magnam.</p>
+            <button class="btnItem">Delete</button>
+        </div>
+        <div class="item">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid incidunt consequatur, odit ipsam temporibus sunt inventore maiores maxime eveniet repellat, est dolorem a! Eos, a itaque! Saepe officia deserunt magnam.</p>
+            <button class="btnItem">Delete</button>
+        </div>
+        <div class="item">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid incidunt consequatur, odit ipsam temporibus sunt inventore maiores maxime eveniet repellat, est dolorem a! Eos, a itaque! Saepe officia deserunt magnam.</p>
+            <button class="btnItem">Delete</button>
+        </div>
+        <div class="item">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid incidunt consequatur, odit ipsam temporibus sunt inventore maiores maxime eveniet repellat, est dolorem a! Eos, a itaque! Saepe officia deserunt magnam.</p>
+            <button class="btnItem">Delete</button>
+        </div>
+    </div>
+    
+    <!-- 2) -->
+
+    <h2>Subtask 1</h2>
+    <div id="main-div">
+        <span data-tooltip="наведите">наведите</span>
+        <span data-tooltip="для">для</span>
+        <span data-tooltip="подсказки">подсказки</span>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
