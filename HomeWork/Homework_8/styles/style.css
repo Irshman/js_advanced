@@ -1,0 +1,37 @@
+.conteiner {
+    width: 20%;
+    margin: 50px auto;
+}
+
+.user-str {
+    display: none;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(42, 22, 66);
+}
+
+.btn {
+    border: none;
+    background-color: rgb(73, 32, 120);
+    color: #fff;
+    font-size: 18px;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(42, 22, 66);
+}
+
